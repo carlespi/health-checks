@@ -3,7 +3,11 @@
 import shutil
 import sys
 
+
 # Este commetnse puso del lado de local 'experimental' branch
+
+# Este comentario se esta haciendo del lado de Git UI
+
 
 def check_disk_usage(disk, min_absolute, min_percent):
   '''Return True is there is enough free disk space, false otherwise'''
