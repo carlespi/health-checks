@@ -3,6 +3,8 @@
 import shutil
 import sys
 
+# Este comentario se esta haciendo del lado de Git UI
+
 def check_disk_usage(disk, min_absolute, min_percent):
   '''Return True is there is enough free disk space, false otherwise'''
   du = shutil.disk_usage(disk)
