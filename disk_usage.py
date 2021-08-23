@@ -3,6 +3,8 @@
 import shutil
 import sys
 
+# Este commetnse puso del lado de local 'experimental' branch
+
 def check_disk_usage(disk, min_absolute, min_percent):
   '''Return True is there is enough free disk space, false otherwise'''
   du = shutil.disk_usage(disk)
